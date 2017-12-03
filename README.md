@@ -2,6 +2,8 @@
 
 A tutorial to explain how to setup a new ir remote by using **Lirc** service in **Libreelec distribution**.
 
+> :memo: Tutorial tested in **December 2017** on **Libreelec.Generic.x86_64 rev: 8.2.1**
+
 ## Prerequisites
 
 `LIRC` feature must be enabled in your system by using `Libreelec Menu Settings` like :
