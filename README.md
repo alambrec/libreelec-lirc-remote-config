@@ -56,7 +56,7 @@ echo 'mceusb		rc-rc6-mce	konig_remote' > /storage/.config/rc_maps.cfg
 ```
 chmod 664 /storage/.config/rc_maps.cfg
 ```
-:warning: This fourth step is very important. LIRC service won't considere `rc_maps.cfg` if it is set with incorrect permission.
+> :warning: **Important** LIRC service won't considere `rc_maps.cfg` if it is set with incorrect permission.
 
 5. Reboot your system to apply changes
 
@@ -74,6 +74,6 @@ echo 'drivers_name		table_name	keymap_name' > /storage/.config/rc_maps.cfg
 ```
 chmod 664 /storage/.config/rc_maps.cfg
 ```
-:warning: This fourth step is very important. LIRC service won't considere `rc_maps.cfg` if it is set with incorrect permission.
+> :warning: **Important** LIRC service won't considere `rc_maps.cfg` if it is set with incorrect permission.
 
 5. Reboot your system to apply changes
