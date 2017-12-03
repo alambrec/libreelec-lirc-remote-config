@@ -1,0 +1,1 @@
+# libreelec-lirc-remote-config
