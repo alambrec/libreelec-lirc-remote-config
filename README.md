@@ -68,14 +68,14 @@ chmod 664 /storage/.config/rc_maps.cfg
 ```
 cp /storage/.config/rc_maps.cfg.sample /storage/.config/rc_maps.cfg
 ```
-3. Edit `rc_maps.cfg` to add new line at the end of file, with your driver, table and keymap name :
+2. Edit `rc_maps.cfg` to add new line at the end of file, with your `driver`, `table` and `keymap` value :
 ```
 echo 'drivers_name		table_name	keymap_name' > /storage/.config/rc_maps.cfg
 ```
-4. Fix the permission of `rc_maps.cfg`
+3. Fix the permission of `rc_maps.cfg`
 ```
 chmod 664 /storage/.config/rc_maps.cfg
 ```
 > :warning: **Important** LIRC service won't considere `rc_maps.cfg` if it is set with incorrect permission.
 
-5. Reboot your system to apply changes
+4. Reboot your system to apply changes
